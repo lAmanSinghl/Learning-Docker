@@ -1,0 +1,148 @@
+# ==============================
+# Dependencies
+# ==============================
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Java / Maven
+target/
+*.class
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# Databases / Local Data
+# ==============================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# MySQL local data
+mysql-data/
+
+# Redis
+*.rdb
+dump.rdb
+
+
+# ==============================
+# Terraform
+# ==============================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+
+# ==============================
+# Build / Coverage
+# ==============================
+
+dist/
+build/
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+
+# ==============================
+# Django
+# ==============================
+
+*.pot
+*.mo
+local_settings.py
+
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+*.iml
+
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==============================
+# Temporary Files
+# ==============================
+
+tmp/
+temp/
+*.tmp
+*.swp
+
+
+# ==============================
+# JavaScript / Testing
+# ==============================
+
+.nyc_output/
+
+
+# ==============================
+# Docker
+# ==============================
+
+# Don't ignore Dockerfiles, docker-compose.yml,
+# Kubernetes manifests, etc.
+# They should be committed.
+
+
+# ==============================
+# Local Certificates / Keys
+# ==============================
+
+*.pem
+*.key
+*.crt
+#!important-cert.pem
+
+
+# ==============================
+# Jenkins
+# ==============================
+
+# Local Jenkins workspace/data if created inside project
+jenkins_home/
+jenkins-data/
